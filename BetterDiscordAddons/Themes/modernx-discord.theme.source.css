@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.1.13b "
+    --theme-version: "22.1.14a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -3327,6 +3327,10 @@ body.foldercontentopened .base-2jDfDU {
     display: none !important
 }
 
+.powercord-spotify {
+    padding-top: 1rem;
+}
+
 .spotify-buttons {
     margin: 0;
     top: 50%;
@@ -3335,24 +3339,24 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 .powercord-spotify>.container-YkUktl>.avatarWrapper-1B9FTW {
-    margin-top: 41.5rem !important;
+    margin-top: 658px !important;
     left: 7px;
     transition: 0.2s
 }
 
 .powercord-spotify:hover>.container-YkUktl>.avatarWrapper-1B9FTW {
-    margin-top: 39.75rem !important;
+    margin-top: 635px !important;
 }
 
 .powercord-spotify>.container-YkUktl>.nameTag-sc-gpq {
-    margin-top: 41rem !important;
+    margin-top: 650px !important;
     left: 3rem;
     transition: 0.2s;
     width: 7rem;
 }
 
 .powercord-spotify:hover>.container-YkUktl>.nameTag-sc-gpq {
-    margin-top: 39.3rem !important;
+    margin-top: 628px !important;
 }
 
 .spotify-artist {
