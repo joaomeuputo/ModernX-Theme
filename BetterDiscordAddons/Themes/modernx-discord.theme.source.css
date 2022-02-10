@@ -1583,13 +1583,15 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 .timestamp-p1Df1m,
-.timestampInline-_lS3aK .PronounDB-pronouns-text {
+.ppl-moe-pronouns,
+.pronoundb-pronouns {
     opacity: 0;
     transition: opacity .175s ease
 }
 
 .messageListItem-ZZ7v6g:hover .timestamp-p1Df1m,
-.messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK .PronounDB-pronouns-text:hover {
+.messageListItem-ZZ7v6g:hover .ppl-moe-pronouns,
+.messageListItem-ZZ7v6g:hover .pronoundb-pronouns {
     opacity: 1
 }
 
