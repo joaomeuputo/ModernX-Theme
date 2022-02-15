@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.2.15b "
+    --theme-version: "22.2.15c "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -6196,6 +6196,14 @@ button[class^=attachButton] {
 .header-6h98Y_,
 .titleContainer-3fPic2 {
     padding-top: 80px
+}
+
+.hero-1aNo0v {
+    margin: auto;
+}
+
+.selectedBackground-1t6xXq {
+    display: none;
 }
 
 .sidebar-nqHbhN [class*=selected]::after {
