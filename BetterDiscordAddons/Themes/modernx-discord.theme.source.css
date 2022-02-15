@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.1.14b "
+    --theme-version: "22.2.15a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -16,7 +16,7 @@
     content: "v"var(--theme-version);
 }
 
-.info-1sUqUG:after {
+.info-3pQQBb:after {
     content: "ModernX Theme - "var(--theme-version);
     top: 16px;
     color: var(--text-muted);
@@ -321,48 +321,48 @@
     cursor: default
 }
 
-.search-39IXmY .search-1FM8Qc .searchBar-zdmu7v {
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ {
     width: 24px;
     padding: 0;
     background: 0 0;
     border-radius: 6px
 }
 
-.search-39IXmY .search-1FM8Qc .searchBar-zdmu7v .icon-1nNws_ {
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ .icon-tZMHgY {
     cursor: pointer
 }
 
-.search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v .icon-1nNws_ {
+.search-2Mwzzq.open-3y3yI_ .searchBar-jGtisZ .icon-tZMHgY {
     cursor: text
 }
 
-.search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v .icon-1nNws_.clear-2KQ7l1 {
+.search-2Mwzzq.open-3y3yI_ .searchBar-jGtisZ .icon-tZMHgY.clear-2KQ7l1 {
     cursor: pointer
 }
 
-.search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v {
+.search-2Mwzzq.open-3y3yI_ .searchBar-jGtisZ {
     width: 320px;
     height: 40px;
     padding: 0;
     background-color: var(--search-bar)
 }
 
-.search-1FM8Qc .DraftEditor-root .public-DraftEditor-content,
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.search-2Mwzzq .DraftEditor-root .public-DraftEditor-content,
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
     line-height: 40px
 }
 
-.search-1FM8Qc .DraftEditor-root .public-DraftEditor-content::-webkit-scrollbar,
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root::-webkit-scrollbar {
+.search-2Mwzzq .DraftEditor-root .public-DraftEditor-content::-webkit-scrollbar,
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root::-webkit-scrollbar {
     height: 0
 }
 
-.search-1FM8Qc .DraftEditor-root .DraftEditor-editorContainer {
+.search-2Mwzzq .DraftEditor-root .DraftEditor-editorContainer {
     border-radius: 0;
     height: 40px
 }
 
-.search-1FM8Qc .DraftEditor-root {
+.search-2Mwzzq .DraftEditor-root {
     font-size: 14px;
     font-weight: 500;
     line-height: 40px;
@@ -370,24 +370,24 @@
     padding-top: 0
 }
 
-.search-1FM8Qc.open-3y3yI_ .icon-1nNws_ {
+.search-2Mwzzq.open-3y3yI_ .icon-tZMHgY {
     height: 40px;
     width: 40px
 }
 
-.search-39IXmY .search-1FM8Qc .icon-18rqoe {
+.search-39IXmY .search-2Mwzzq .icon-18rqoe {
     color: var(--interactive-normal)
 }
 
-.search-39IXmY:hover .search-1FM8Qc .icon-18rqoe {
+.search-39IXmY:hover .search-2Mwzzq .icon-18rqoe {
     color: var(--interactive-hover)
 }
 
-.search-39IXmY .search-1FM8Qc.open-3y3yI_.focused-8aNhVB .icon-18rqoe {
+.search-39IXmY .search-2Mwzzq.open-3y3yI_.focused-8aNhVB .icon-18rqoe {
     color: var(--text-muted)
 }
 
-.search-1FM8Qc.open-3y3yI_ .iconContainer-1RqWJj {
+.search-2Mwzzq.open-3y3yI_ .iconContainer-1RqWJj {
     transform: scale(.75)
 }
 
@@ -406,8 +406,8 @@
     width: unset !important
 }
 
-.search-1FM8Qc .DraftEditor-root .public-DraftEditor-content,
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.search-2Mwzzq .DraftEditor-root .public-DraftEditor-content,
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
     padding-left: 8px;
     padding-bottom: 0;
     padding-top: 0
