@@ -332,15 +332,15 @@
     cursor: pointer
 }
 
-.search-2Mwzzq.open-3y3yI_ .searchBar-jGtisZ .icon-tZMHgY {
+.search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ .icon-tZMHgY {
     cursor: text
 }
 
-.search-2Mwzzq.open-3y3yI_ .searchBar-jGtisZ .icon-tZMHgY.clear-2KQ7l1 {
+.search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ .icon-tZMHgY.clear-2KQ7l1 {
     cursor: pointer
 }
 
-.search-2Mwzzq.open-3y3yI_ .searchBar-jGtisZ {
+.search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ {
     width: 320px;
     height: 40px;
     padding: 0;
@@ -370,7 +370,7 @@
     padding-top: 0
 }
 
-.search-2Mwzzq.open-3y3yI_ .icon-tZMHgY {
+.search-2Mwzzq.open-1F8u2c .icon-tZMHgY {
     height: 40px;
     width: 40px
 }
@@ -383,11 +383,11 @@
     color: var(--interactive-hover)
 }
 
-.search-39IXmY .search-2Mwzzq.open-3y3yI_.focused-8aNhVB .icon-18rqoe {
+.search-39IXmY .search-2Mwzzq.open-1F8u2c.focused-8aNhVB .icon-18rqoe {
     color: var(--text-muted)
 }
 
-.search-2Mwzzq.open-3y3yI_ .iconContainer-1RqWJj {
+.search-2Mwzzq.open-1F8u2c .iconContainer-1RqWJj {
     transform: scale(.75)
 }
 
