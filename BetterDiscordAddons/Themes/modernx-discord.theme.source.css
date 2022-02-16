@@ -3331,29 +3331,26 @@ body.foldercontentopened .base-2jDfDU {
     border-right: 1px solid var(--spotify-color);
     overflow: hidden;
 }
+.powercord-spotify:hover {
+  left: 0px;
+  height: 150px;
+}
 .wrapper-3Hk9OB:empty ~ .powercord-spotify:hover {
   height: 80px;
 }
-
 .wrapper-3Hk9OB:hover ~ .powercord-spotify{
   left: 0px;
   height: 150px;
 }
-
 .wrapper-3Hk9OB:after:hover ~ .powercord-spotify{
   left: 0px;
   height: 150px;
 }
-
 .avatarWrapper-1B9FTW:hover ~ .powercord-spotify{
   left: 0px;
   height: 150px;
 }
 
-.powercord-spotify:hover {
-  left: 0px;
-  height: 150px;
-}
 .panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN:after, .panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after {
   width: 242px
 }
