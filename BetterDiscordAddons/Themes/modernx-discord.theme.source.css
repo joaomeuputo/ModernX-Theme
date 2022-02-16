@@ -3317,41 +3317,84 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 .powercord-spotify {
-    padding-top: 1rem;
+    transition-property: left, height;
+    transition-duration:  0.4s;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: 1;
+    bottom: -12px;
+    left: -150px;
+    width: 200px !important;
+    height: 50px;
+    background-color: var(--background-secondary);
+    border-top: 1px solid var(--spotify-color);
+    border-right: 1px solid var(--spotify-color);
+    overflow: hidden;
+}
+.powercord-spotify:hover {
+  left: 0px;
+  height: 150px;
+}
+.wrapper-3Hk9OB:empty ~ .powercord-spotify:hover {
+  height: 80px;
+}
+.wrapper-3Hk9OB:hover ~ .powercord-spotify{
+  left: 0px;
+  height: 150px;
+}
+.wrapper-3Hk9OB:after:hover ~ .powercord-spotify{
+  left: 0px;
+  height: 150px;
+}
+.avatarWrapper-1B9FTW:hover ~ .powercord-spotify{
+  left: 0px;
+  height: 150px;
+}
+
+.panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN:after, .panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after {
+  width: 242px
+}
+.panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after {
+  display: none;
 }
 
 .spotify-buttons {
-    margin: 0;
-    top: 50%;
-    left: 10rem;
-    position: relative;
+    position: absolute;
+    top: 45px !important;
+    left: 4px !important;
+    margin: 0 0 !important;
+    transition: 0.2s;
+    width: 100%;
 }
 
 .powercord-spotify>.container-YkUktl>.avatarWrapper-1B9FTW {
     position: absolute;
-    top: 91.7%;
-    left: 0;
-    right: 83%;
+    top: 10px;
+    left: 155px;
+    right: 10px;
+    margin: 0 auto !important;
+    transition: 0.2s
+
+}
+.powercord-spotify:hover>.container-YkUktl>.avatarWrapper-1B9FTW {
+    position: absolute;
+    top: 10px;
+    left: 155px;
+    right: 10px;
     margin: 0 auto !important;
     transition: 0.2s
 }
-
-.powercord-spotify:hover>.container-YkUktl>.avatarWrapper-1B9FTW {
-    top: 88.2%
-}
-
 .powercord-spotify>.container-YkUktl>.nameTag-sc-gpq {
     position: absolute;
-    top: 90.5%;
-    left: 0;
-    right: 85.5%;
-    margin: 0 auto !important;
+    top: 4px;
+    left: 4px;
+    margin: 0 0 !important;
     transition: 0.2s;
-    width: 7rem;
-}
+    width: 70%;
+}  
 
 .powercord-spotify:hover>.container-YkUktl>.nameTag-sc-gpq {
-    top: 87% !important;
+    top: 4px !important;
 }
 
 .spotify-artist {
@@ -3362,6 +3405,22 @@ body.foldercontentopened .base-2jDfDU {
     height: 25px;
     width: 7rem;
 }
+
+.spotify-extra-controls,
+.powercord-spotify:hover .spotify-extra-controls {
+  position: absolute;
+  top: 62px !important;
+  left: 70px !important;
+  margin: 0 0 !important;
+  transition: 0.2s;
+  width: 100%;
+  height: 0 !important;
+  opacity: 1 !important;
+}
+.spotify-seek {
+  display: none !important;
+}
+
 
 .powercord-snippet-apply:not(.applied) div:hover {
     border-radius: 4px;
