@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.2.15c "
+    --theme-version: "22.2.16a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -3318,7 +3318,7 @@ body.foldercontentopened .base-2jDfDU {
 
 .powercord-spotify {
     transition-property: left, height;
-    transition-duration:  0.4s;
+    transition-duration: 0.4s;
     border-top-right-radius: 25px;
     position: absolute;
     z-index: 1;
@@ -3331,31 +3331,38 @@ body.foldercontentopened .base-2jDfDU {
     border-right: 1px solid var(--spotify-color);
     overflow: hidden;
 }
+
 .powercord-spotify:hover {
-  left: 0px;
-  height: 150px;
-}
-.wrapper-3Hk9OB:empty ~ .powercord-spotify:hover {
-  height: 80px;
-}
-.wrapper-3Hk9OB:hover ~ .powercord-spotify{
-  left: 0px;
-  height: 150px;
-}
-.wrapper-3Hk9OB:after:hover ~ .powercord-spotify{
-  left: 0px;
-  height: 150px;
-}
-.avatarWrapper-1B9FTW:hover ~ .powercord-spotify{
-  left: 0px;
-  height: 150px;
+    left: 0px;
+    height: 150px;
 }
 
-.panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN:after, .panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after {
-  width: 242px
+.wrapper-3Hk9OB:empty~.powercord-spotify:hover {
+    height: 80px;
 }
+
+.wrapper-3Hk9OB:hover~.powercord-spotify {
+    left: 0px;
+    height: 150px;
+}
+
+.wrapper-3Hk9OB:after:hover~.powercord-spotify {
+    left: 0px;
+    height: 150px;
+}
+
+.avatarWrapper-1B9FTW:hover~.powercord-spotify {
+    left: 0px;
+    height: 150px;
+}
+
+.panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN:after,
 .panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after {
-  display: none;
+    width: 242px
+}
+
+.panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after {
+    display: none;
 }
 
 .spotify-buttons {
@@ -3374,8 +3381,8 @@ body.foldercontentopened .base-2jDfDU {
     right: 10px;
     margin: 0 auto !important;
     transition: 0.2s
-
 }
+
 .powercord-spotify:hover>.container-YkUktl>.avatarWrapper-1B9FTW {
     position: absolute;
     top: 10px;
@@ -3384,6 +3391,7 @@ body.foldercontentopened .base-2jDfDU {
     margin: 0 auto !important;
     transition: 0.2s
 }
+
 .powercord-spotify>.container-YkUktl>.nameTag-sc-gpq {
     position: absolute;
     top: 4px;
@@ -3391,7 +3399,7 @@ body.foldercontentopened .base-2jDfDU {
     margin: 0 0 !important;
     transition: 0.2s;
     width: 70%;
-}  
+}
 
 .powercord-spotify:hover>.container-YkUktl>.nameTag-sc-gpq {
     top: 4px !important;
@@ -3408,17 +3416,18 @@ body.foldercontentopened .base-2jDfDU {
 
 .spotify-extra-controls,
 .powercord-spotify:hover .spotify-extra-controls {
-  position: absolute;
-  top: 62px !important;
-  left: 70px !important;
-  margin: 0 0 !important;
-  transition: 0.2s;
-  width: 100%;
-  height: 0 !important;
-  opacity: 1 !important;
+    position: absolute;
+    top: 62px !important;
+    left: 70px !important;
+    margin: 0 0 !important;
+    transition: 0.2s;
+    width: 100%;
+    height: 0 !important;
+    opacity: 1 !important;
 }
+
 .spotify-seek {
-  display: none !important;
+    display: none !important;
 }
 
 
