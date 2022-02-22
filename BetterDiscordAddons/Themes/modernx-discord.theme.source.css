@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.2.22b "
+    --theme-version: "22.2.22c "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -5901,6 +5901,42 @@ button[class^=attachButton] {
     mask-position: center;
     color: var(--color);
     background-color: var(--color)
+}
+
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Hiện Danh sách thành viên"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Näytä jäsenluettelo"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Pokaż listę członków"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Mostrar lista de membros"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Mostrar lista de miembros"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Mostra lista dei membri"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Ascunde lista membrilor"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Afficher la liste des membres"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Show Member List"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Member list"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Rodyti narių sąrašą"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Prikaži popis članova"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Zobrazit seznam členů"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Taglista megjelenítése"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Üye Listesini Göster"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Εμφάνιση λίστας μελών"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Показати список учасників"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Показать список участников"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Показване на списъка с членове"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="मेम्बर लिस्ट को दिखाएं"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="แสดงรายชื่อสมาชิก"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="メンバーリストを表示"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="显示成员名单"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="顯示成員名單"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="멤버 목록 표시하기"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Mitgliederliste anzeigen"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Visa medlemslista"] svg,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Vis medlemsliste"] svg {
+    order: 99;
+    margin-right: 8px;
+    transition: margin var(--memberlist-anim-speed) var(--memberlist-anim-ease);
+    --icon: var(--icon-sidebar);
+    --color: var(--interactive-normal);
+    display: var(--tiny-display, block)
 }
 
 .iconWrapper-2awDjA.clickable-ZD7xvu.selected-29KTGM[aria-label*="Danh sách thành viên"] svg,
