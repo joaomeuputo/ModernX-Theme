@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.2.26a "
+    --theme-version: "22.3.5a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -901,7 +901,7 @@
 }
 
 .title-338goq {
-    width: 6rem;
+    width: var(--username-button-width);
 }
 
 #app-mount .guilds-2JjMmN {
