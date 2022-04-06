@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.3.27a "
+    --theme-version: "22.4.6a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -47,7 +47,8 @@
     --app-focused-transition: background-color var(--app-focused-duration) ease-in-out, backdrop-filter 0s linear var(--app-focused-duration);
     --blur-header: blur(0px);
     --blur-sidebar: blur(0px);
-    --button-blur: blur(0px)
+    --button-blur: blur(0px);
+    --channel-icon: #787878;
 }
 
 .app-focused {
@@ -531,7 +532,7 @@
 #popout_12296 {
     margin-left: -295px;
 }
-    
+
 .appMount-2yBXZl>.layerContainer-2v_Sit.zIndexDisabled-Pf4Txx {
     position: fixed !important;
     z-index: 1001 !important
@@ -823,6 +824,10 @@
 
 #app-mount .content-1jQy2l>.membersWrap-3NUR2t>.members-3WRCEx {
     background: var(--background-primary)
+}
+
+#app-mount .content-1jQy2l>main[aria-label=" (channel)"]>form>div>div.scrollableContainer-15eg7h.webkit-QgSAqd>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div {
+    position: absolute !important
 }
 
 #app-mount .background-3iPORX {
@@ -2783,12 +2788,13 @@ body.foldercontentopened .base-2jDfDU {
     background-color: var(--background-modifier-selected) !important
 }
 
-.dot-e8DTw_, .premiumLabel-3HPvdB>svg {
+.dot-e8DTw_,
+.premiumLabel-3HPvdB>svg {
     margin-left: 140px;
 }
 
-.icon-3FU6Ir  {
-	margin-left: 120px;
+.icon-3FU6Ir {
+    margin-left: 120px;
 }
 
 .menu-1QACrS#status-picker {
@@ -5877,6 +5883,7 @@ button[class^=attachButton] {
     color: var(--color);
     background-color: var(--color)
 }
+
 .iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Hiện Danh sách thành viên"],
 .iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Näytä jäsenluettelo"],
 .iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Pokaż listę członków"],
