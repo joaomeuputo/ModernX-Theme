@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.4.6a "
+    --theme-version: "22.4.28a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -4438,6 +4438,15 @@ button[aria-label="Disable Game Activity"] .contents-3ca1mk:after {
 
 .banner-1YaD3N {
     background-image: var(--user-background, inherit)
+}
+
+.phPromoBanner-3iexBk {
+    margin: auto;
+}
+
+.background-Gjdjzm .auPromoSelected-336Wc2,
+.badgeIconSettingsMenu-39c26C {
+    display: none;
 }
 
 .bannerNormal-22rPhb,
