@@ -6,6 +6,10 @@
 
 Welcome to ModernX a Discord theme. We plan to give a modern looking theme with a beatiful UI.
 
+### Deprecation Note:
+
+Alexis has started work on V2. This will get archived when it releases.
+
 ## Installing
 
 ### BetterDiscord
