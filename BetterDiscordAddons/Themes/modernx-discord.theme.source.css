@@ -1,7 +1,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
-    --theme-version: "22.6.30a "
+    --theme-version: "22.7.20a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -629,6 +629,12 @@
 
 #account-info>div.headerTop-3GPUSF.copiableNameTag-3f6roa>div.clickTarget-2uXro4>div>div.childWrapper-2wlp_S>div>div.textScroller-dc9_kz.creationDate-CJwdKT.date-YN6TCS.textRow-1sENuL {
     display: none !important
+}
+
+.animationWrapper-3DL_Ua{
+    top:-5px;
+    width: calc(var(--server-icon-size) + 5px);
+    height: calc(var(--server-icon-size) + 6px) 
 }
 
 .content-2a4AW9 {
@@ -4941,11 +4947,19 @@ customStatus-3XAoF9 {
 }
 
 #app-mount .userPopout-2j1gM4 .headerTop-3GPUSF {
-    padding: 64px 16px 16px
+    padding: 120px 16px 16px
 }
 
 .profileBannerPreview-3_l0Wd {
     background-color: transparent
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU {
+    height: 0px;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU>.body-1FrnJD {
+    position: fixed;
 }
 
 html #app-mount .userPopout-2j1gM4 .avatarPositionNormal-2jWoC2,
