@@ -1,5 +1,5 @@
 :root {
-    --theme-version: "22.8.11a "
+    --theme-version: "22.8.11b "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -4329,6 +4329,11 @@ body.foldercontentopened .base-2jDfDU {
     line-height: var(--app-info-bar-height)
 }
 
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    color: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    background-color: var(--button-danger-background);
+}
+
 .button-2BMPJJ {
     width: 0;
     height: 0;
@@ -4667,6 +4672,22 @@ button[aria-label="Disable Game Activity"] .contents-3ca1mk:after {
     display: none
 }
 
+.userPopout-2j1gM4>.headerTop-3GPUSF {
+    top: 45px
+}
+
+.body-2wLx-E {
+    top: 35px
+}
+
+.userPopout-2j1gM4>.footer-3naVBw {
+    background-color: var(--background-floating)
+}
+
+.note-Go5ZP2>textarea {
+    margin-bottom: 25px
+}
+
 .relationshipButtons-3ByBpj .lookFilled-1Gx00P.colorGreen-29iAKY,
 .role-2TIOKu,
 .theme-dark .actionButton-1YKTU0,
@@ -4916,7 +4937,7 @@ html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9~.headerTop-3GPU
 }
 
 html #app-mount .userPopout-2j1gM4 .avatarPositionNormal-2jWoC2 {
-    top: 26px !important
+    top: 75px !important
 }
 
 .bannerNormal-22rPhb~.headerTop-3GPUSF,
