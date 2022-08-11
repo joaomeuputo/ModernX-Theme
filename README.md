@@ -17,8 +17,8 @@ Alexis has started work on V2. This will get archived when it releases.
 2. Copy the CSS file to `%appdata%/BetterDiscord/themes`
 3. Enable the theme in BetterDiscord settings.
 
-### Powercord
-1. Go to Powercord's theme folder.
+### Powercord / Replugged
+1. Go to Powercord's or Replugged's theme folder.
 2. Open a terminal of your choice and run this command: `git clone https://github.com/Slddev/ModernX-Theme`
 3. Go to the themes tab and click "Load missing themes".
 4. Enjoy!
