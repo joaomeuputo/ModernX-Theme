@@ -1,5 +1,5 @@
 :root {
-    --theme-version: "22.8.11b "
+    --theme-version: "22.9.24a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -588,7 +588,7 @@
 
 #account-info>.headerTop-3GPUSF>.clickTarget-2uXro4 {
     position: relative;
-    bottom: 24px;
+    bottom: 30px;
     width: 208px;
 }
 
