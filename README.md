@@ -12,10 +12,16 @@ Alexis has started work on V2. This will get archived when it releases.
 
 ## Installing
 
+### OpenAsar
+1. Copy everything from [here](https://modernx-theme.vercel.app/modernx-discord.theme.css).
+2. Paste into the theming tab of OpenAsar.
+3. Click Reload and Enjoy!
+
 ### BetterDiscord
 1. Download the latest CSS file from the [releases](https://github.com/Slddev/ModernX-Theme/releases).
 2. Copy the CSS file to `%appdata%/BetterDiscord/themes`
 3. Enable the theme in BetterDiscord settings.
+4. Enjoy!
 
 ### Powercord
 1. Go to Powercord's or Replugged's theme folder.
@@ -25,6 +31,7 @@ Alexis has started work on V2. This will get archived when it releases.
 
 ### Replugged
 1. Visit this quick install system link [here](https://replugged.dev/install?url=Slddev/ModernX-Theme).
+2. Enjoy!
 
 ### Credits
 - [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList)

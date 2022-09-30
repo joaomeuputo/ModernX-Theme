@@ -1,5 +1,5 @@
 :root {
-    --theme-version: "22.9.24b "
+    --theme-version: "22.9.30a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -423,6 +423,10 @@
     padding-bottom: 0px;
     height: calc(100% + var(--app-info-bar-height));
     background-color: var(--background-secondary) !important
+}
+
+.homeContainer-r4Hvv1 {
+    background: var(--background-primary);
 }
 
 #app-mount .sidebar-1tnWFu .content-2a4AW9 .containerDefault-3TQ5YN .children-3MeUvj {
