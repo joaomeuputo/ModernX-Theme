@@ -1,5 +1,5 @@
 :root {
-    --theme-version: "22.9.30a "
+    --theme-version: "22.9.30b "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -2192,6 +2192,10 @@ body.foldercontentopened .base-2jDfDU {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     padding-right: 16px
+}
+
+.theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
+    background: var(--background-modifier-hover);
 }
 
 .list-2x9Cl9 {
