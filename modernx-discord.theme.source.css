@@ -2958,8 +2958,7 @@ body.foldercontentopened .base-2jDfDU {
     --user-setting-margin-left: -3px;
     position: fixed;
     top: calc(14px + var(--server-outer-margin) + var(--avatar-dropdown-offset) + var(--menu-container-padding));
-    right: calc(-10000px + var(--dropdown-width) + var(--user-outer-right-margin) - var(--menu-container-padding) + 32px + 8px + 20px);
-    width: 10000px;
+    right: calc(var(--dropdown-width) + var(--user-outer-right-margin) - var(--menu-container-padding) + 28px);
     background-color: rgba(0, 0, 0, 0);
     z-index: 1002;
     box-sizing: border-box;
@@ -2971,7 +2970,7 @@ body.foldercontentopened .base-2jDfDU {
     cursor: default;
     text-align: left;
     color: var(--interactive-normal);
-    clip: rect(0, var(--dropdown-button-width), 32px, 0)
+    clip: rect(0, calc(var(--username-button-width) + 64px), 32px, 0);
 }
 
 .panels-3wFtMD .container-YkUktl .directionRow-2Iu2A9 button svg {
