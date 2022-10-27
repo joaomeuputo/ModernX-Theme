@@ -1,5 +1,5 @@
 :root {
-    --theme-version: "22.9.30b "
+    --theme-version: "22.10.27a "
 }
 
 [id^="ModernX Theme"] .bd-addon-header .bd-version:before {
@@ -290,7 +290,7 @@
 }
 
 #app-mount .queryContainer-ZunrLZ {
-    background: transparent;
+    background: transparent !important;
 }
 
 #app-mount .content-1jQy2l>.membersWrap-3NUR2t>.members-3WRCEx {
@@ -555,8 +555,6 @@
 #account-info>.headerTop-3GPUSF>.clickTarget-2uXro4>div>div:nth-child(2) {
     display: none;
 }
-
-
 
 #account-info>.headerTop-3GPUSF>.clickTarget-2uXro4>div>.childWrapper-2wlp_S>div>div>span {
     margin: 2px 0;
@@ -908,6 +906,15 @@
     background-color: var(--background-floating)
 }
 
+.zoomedCarouselModalRoot-beLNhM {
+    background: transparent;
+    cursor: default;
+}
+
+.modalCarouselWrapper-YK1MX4 {
+    cursor: pointer;
+}
+
 .theme-dark .footer-31IekZ {
     background-color: var(--background-secondary)
 }
@@ -1179,7 +1186,7 @@
 }
 
 #app-mount .queryContainer-ZunrLZ {
-    background: transparent
+    background: transparent !important;
 }
 
 #app-mount .content-1jQy2l>.membersWrap-3NUR2t>.members-3WRCEx {
@@ -2069,7 +2076,7 @@ body.foldercontentopened .base-2jDfDU {
     animation: none
 }
 
-.layer-2aCOJ3 .animatorRight-xAUgTY .userPopout-2j1gM4 {
+.layer-2aCOJ3 .animatorRight-xAUgTY .userPopoutOuter-3AVBmJ {
     transform-origin: center left;
     animation: var(--dialog-fade-in-from-right)
 }
@@ -3063,7 +3070,7 @@ body.foldercontentopened .base-2jDfDU {
 .root-g14mjS,
 .root-8LYsGj,
 .streamPreview-3qoMP4,
-.userPopout-2j1gM4,
+.userPopoutOuter-3AVBmJ,
 [class^=noiseCancellationPopout] {
     border-radius: var(--context-menu-border-radius)
 }
@@ -3116,7 +3123,7 @@ body.foldercontentopened .base-2jDfDU {
 .streamPreview-3qoMP4:before,
 .toolbar-37BrJ5:before,
 .uploadModal-2ie9O_:before,
-.userPopout-2j1gM4:before,
+.userPopoutOuter-3AVBmJ:before,
 .wrapper-2vIMkT:before {
     border: 1px var(--background-modifier-accent) solid;
     box-sizing: border-box;
@@ -4680,7 +4687,7 @@ button[aria-label="Disable Game Activity"] .contents-3ca1mk:after {
     display: none
 }
 
-.userPopout-2j1gM4>.headerTop-3GPUSF {
+.userPopoutOuter-3AVBmJ>.headerTop-3GPUSF {
     top: 45px
 }
 
@@ -4688,7 +4695,7 @@ button[aria-label="Disable Game Activity"] .contents-3ca1mk:after {
     top: 35px
 }
 
-.userPopout-2j1gM4>.footer-3naVBw {
+.userPopoutOuter-3AVBmJ>.footer-3naVBw {
     background-color: var(--background-floating)
 }
 
@@ -4700,27 +4707,27 @@ button[aria-label="Disable Game Activity"] .contents-3ca1mk:after {
 .role-2TIOKu,
 .theme-dark .actionButton-1YKTU0,
 .theme-light .actionButton-1YKTU0,
-.userPopout-2j1gM4 .textarea-_59yqs:focus {
+.userPopoutOuter-3AVBmJ .textarea-_59yqs:focus {
     background-color: rgba(196, 196, 196, .1);
     transition: filter .15s ease
 }
 
-.userPopout-2j1gM4 .input-2z42oC:focus,
-.userPopout-2j1gM4 .input-2z42oC:hover {
+.userPopoutOuter-3AVBmJ .input-2z42oC:focus,
+.userPopoutOuter-3AVBmJ .input-2z42oC:hover {
     background-color: rgba(196, 196, 196, .1)
 }
 
-.userPopout-2j1gM4 .input-2z42oC {
+.userPopoutOuter-3AVBmJ .input-2z42oC {
     background-color: rgba(196, 196, 196, .05);
     transition: background-color .15s ease
 }
 
-.userPopout-2j1gM4 .input-2z42oC {
+.userPopoutOuter-3AVBmJ .input-2z42oC {
     border: none !important;
     border-radius: 3px
 }
 
-.userPopout-2j1gM4 .input-2z42oC::placeholder {
+.userPopoutOuter-3AVBmJ .input-2z42oC::placeholder {
     color: var(--text-normal);
     opacity: .75
 }
@@ -4845,8 +4852,8 @@ button[aria-label="Disable Game Activity"] .contents-3ca1mk:after {
 
 .bannerNormal-22rPhb,
 html #app-mount .bannerNitroUpsell-3f4I57,
-html #app-mount .userPopout-2j1gM4 .popoutBanner-3cqRD9,
-html #app-mount .userPopout-2j1gM4 .profileBanner-1owKI5 {
+html #app-mount .userPopoutOuter-3AVBmJ .popoutBanner-3cqRD9,
+html #app-mount .userPopoutOuter-3AVBmJ .profileBanner-1owKI5 {
     height: unset !important;
     max-height: unset !important
 }
@@ -4909,13 +4916,13 @@ html #app-mount .userPopout-2j1gM4 .profileBanner-1owKI5 {
     pointer-events: none
 }
 
-html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
+html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9 {
     top: 76px !important
 }
 
 .profileBannerPreview-3_l0Wd .headerTop-3GPUSF,
 .userInfo-regn9W,
-html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9~.headerTop-3GPUSF {
+html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9~.headerTop-3GPUSF {
     margin-top: 100px;
     position: relative
 }
@@ -4944,12 +4951,12 @@ html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9~.headerTop-3GPU
     margin-left: 16px
 }
 
-html #app-mount .userPopout-2j1gM4 .avatarPositionNormal-2jWoC2 {
+html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionNormal-2jWoC2 {
     top: 75px !important
 }
 
 .bannerNormal-22rPhb~.headerTop-3GPUSF,
-html #app-mount .userPopout-2j1gM4 .avatarPositionNormal-2jWoC2~.headerTop-3GPUSF {
+html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionNormal-2jWoC2~.headerTop-3GPUSF {
     margin-top: 50px
 }
 
@@ -4989,7 +4996,7 @@ customStatus-3XAoF9 {
     text-align: center;
 }
 
-#app-mount .userPopout-2j1gM4 .headerTop-3GPUSF {
+#app-mount .userPopoutOuter-3AVBmJ .headerTop-3GPUSF {
     padding: 120px 16px 16px
 }
 
@@ -5005,8 +5012,8 @@ customStatus-3XAoF9 {
     position: fixed;
 }
 
-html #app-mount .userPopout-2j1gM4 .avatarPositionNormal-2jWoC2,
-html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
+html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionNormal-2jWoC2,
+html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9 {
     margin-top: unset !important
 }
 
@@ -5022,7 +5029,10 @@ html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
 }
 
 .nameTag-2Nlmsy.nameTag-H6kSJ0 {
-    margin-top: 200px
+    margin-top: 30px;
+}
+.bannerSVGWrapper-qc0szY {
+    min-height: 240px !important;
 }
 
 .customStatusActivity-WKWGD- {
@@ -5044,7 +5054,7 @@ html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
     background-size: cover
 }
 
-.userPopout-2j1gM4 {
+.userPopoutOuter-3AVBmJ {
     width: 300px !important;
     position: relative
 }
@@ -5167,14 +5177,14 @@ html #app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
 .popoutInfo-pKbpvG .bodyTitle-2Az3VQ,
 .popoutInfo-pKbpvG .headerText-3g1XK9,
 .userInfoSectionHeader-2mYYun,
-.userPopout-2j1gM4 .aboutMeTitle-3pjiS7,
-.userPopout-2j1gM4 .bodyTitle-2Az3VQ,
-.userPopout-2j1gM4 .headerText-3g1XK9 {
+.userPopoutOuter-3AVBmJ .aboutMeTitle-3pjiS7,
+.userPopoutOuter-3AVBmJ .bodyTitle-2Az3VQ,
+.userPopoutOuter-3AVBmJ .headerText-3g1XK9 {
     display: none
 }
 
 .popoutInfo-pKbpvG .aboutMeSection-PUghFQ:after,
-.userPopout-2j1gM4 .aboutMeSection-PUghFQ:after {
+.userPopoutOuter-3AVBmJ .aboutMeSection-PUghFQ:after {
     content: "";
     height: 1px;
     width: 100%;
