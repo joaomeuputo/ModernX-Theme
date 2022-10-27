@@ -2276,11 +2276,6 @@ body.foldercontentopened .base-2jDfDU {
     animation: none
 }
 
-.layer-2aCOJ3 .animatorRight-xAUgTY .userPopoutOuter-3AVBmJ {
-    transform-origin: center left;
-    animation: var(--dialog-fade-in-from-right)
-}
-
 .layer-2aCOJ3 #manage-streams,
 .layer-2aCOJ3 #video-device-context,
 .layer-2aCOJ3 .noiseCancellationPopout-2-e5Xz {
@@ -5116,17 +5111,6 @@ html #app-mount .userPopoutOuter-3AVBmJ .profileBanner-1owKI5 {
     pointer-events: none
 }
 
-html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9 {
-    top: 76px !important
-}
-
-.profileBannerPreview-3_l0Wd .headerTop-3GPUSF,
-.userInfo-regn9W,
-html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9~.headerTop-3GPUSF {
-    margin-top: 100px;
-    position: relative
-}
-
 .background-3d_SjE,
 .popoutInfo-pKbpvG,
 .userInfo-regn9W {
@@ -5196,8 +5180,16 @@ customStatus-3XAoF9 {
     text-align: center;
 }
 
-#app-mount .userPopoutOuter-3AVBmJ .headerTop-3GPUSF {
-    padding: 120px 16px 16px
+html #app-mount .userPopout-29jUdN .avatarPositionNormal-V4Mjtq {
+    top: 26px !important
+}
+
+html #app-mount .userPopout-29jUdN .avatarPositionPremiumBanner-2nq2Fy {
+    top: 76px !important
+}
+
+html #app-mount .userPopout-29jUdN .avatarPositionPremiumNoBanner-nWzERs {
+    top: 56px !important
 }
 
 .profileBannerPreview-3_l0Wd {
@@ -5222,6 +5214,70 @@ html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9 {
 .avatar-3QF_VA,
 .avatarUploaderInner-Oiob_P {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, .205))
+}
+
+[class^="userPopoutInner"]>.bannerSVGWrapper-qc0szY {
+    height: 100%;
+    max-width: 300px;
+    z-index: 0;
+    min-width: 300px !important;
+    overflow: visible;
+    position: relative;
+}
+
+[class^="userPopoutInner"]>.bannerSVGWrapper-qc0szY foreignObject {
+    mask: none;
+    transform: translateY(-4px);
+}
+
+.userPopoutInnerWithBanner-24GX6I .bannerSVGWrapper-qc0szY foreignObject {
+    transform: translateY(-8px)
+}
+
+.topSection-13QKHs>header>.bannerSVGWrapper-qc0szY foreignobject {
+    mask: none;
+}
+
+.topSection-13QKHs>header>.header-S26rhB {
+    margin-top: 84px;
+    position: relative;
+}
+
+.topSection-13QKHs>header>.bannerSVGWrapper-qc0szY[viewBox="0 0 600 212"] {
+    margin-bottom: -40px;
+}
+
+.topSection-13QKHs>header>.bannerSVGWrapper-qc0szY {
+    height: 100%;
+    max-width: 600px;
+    min-width: 600px !important;
+    z-index: 0;
+    overflow: visible;
+    position: relative;
+}
+
+.profileBadges-31rDHI {
+    top: 12px
+}
+
+.avatarPositionPremiumBanner-2nq2Fy~.profileBadges-31rDHI {
+    top: 2px
+}
+
+.userPopoutInner-1v4xcM:before {
+    content: " ";
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    background-color: var(--background-floating);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: var(--context-menu-border-radius);
+    border-top-right-radius: var(--context-menu-border-radius);
+}
+
+.connectedAccountContainer-3aLMHJ {
+    background-color: var(--background-modifier-accent);
 }
 
 .header-S26rhB {
@@ -5256,7 +5312,8 @@ html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9 {
 
 .userPopoutOuter-3AVBmJ {
     width: 300px !important;
-    position: relative
+    position: relative;
+    padding: 0;
 }
 
 .banner-1YaD3N:after,
@@ -5268,7 +5325,7 @@ html #app-mount .userPopoutOuter-3AVBmJ .avatarPositionPremium-1zPBq9 {
     --mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0.15) 85%, rgba(0, 0, 0, 0.075) 90.5%, rgba(0, 0, 0, 0.037) 94.85%, rgba(0, 0, 0, 0.019) 98%, rgba(0, 0, 0, 0) 100%);
     -webkit-mask-image: var(--mask-image);
     mask-image: var(--mask-image);
-    height: 120px;
+    height: 136px;
     width: 100%;
     pointer-events: none
 }
