@@ -1,21 +1,24 @@
 /**
- * @name ModernX Theme
- * @author Sappy#8123
- * @authorId 741262207391629343
- * @version AutoUpdating
- * @description A modern look for Discord.
- * @source https://github.com/Slddev/ModernX-Theme
+ * @name Alexis Modern Discord Theme
+ * @author Alexis | WyvernZu#0001
+ * @authorLink https://twitter.com/WyvernZu
+ * @version 21.07.22
+ * @description A decluttered, simple, and modern theme for Discord.
+ * @source https://github.com/AlexisJonsson/AlexisJonsson.github.io/tree/master/BetterDiscordAddons/Themes
+ * @website https://alexisjonsson.com/
 */
 
-@import url("https://modernx-theme.vercel.app/modernx-discord.theme.source.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+/*@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css");
+@import url("https://AlexisJonsson.github.io/BetterDiscordAddons/Themes/modern-discord.theme.source.css");*/
+
+@import url("https://onkofonko.github.io/theme/fixedsource.css");
+@import url("https://onkofonko.github.io/theme/fixes.css");
 
 :root {
     /*My Account Button*/
-    --username-button-width: 128px; /* Adjust the width of the username button to match your discord username lenght */
+    --username-button-width: 128px; /* Adjust the with of the username button to match your discord username lenght */
     --username-button-padding: 6px; /* Padding for the username button */
     --username-button-right-margin: 12px; /* Width between the username button and the window controls */
-    --username-text-width: 100px; /* Adjust the width of the username text. (Just do minus 28 from the --username-button-width. */
 
     /*Server List*/
     --server-icon-size: 32px;  /* Size of the server icons */
@@ -26,25 +29,14 @@
     --app-info-bar-height: 48px; /* Height for container that holds the server name, info, actions and search */
 }
 
-/*RadialStatus*/
-:root {
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-
-  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
-  --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
-  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
-
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+/* Red Mention Color */
+#app-mount .message-2CShn3.mentioned-Tre-dv:before {
+    background-color: rgba(250, 26, 26, 0.13);
 }
+#app-mount .message-2CShn3.mentioned-Tre-dv:hover:before {
+    background-color: rgba(250, 26, 26, 0.08);
+}
+#app-mount .message-2CShn3.mentioned-Tre-dv:before {
+    border-left: 4px solid rgba(250, 26, 26, 0.8);
+}
+
